@@ -31,6 +31,7 @@ HostKey /etc/ssh/ssh_host_ed25519_key
 
 ########## Connection Controls ##########
 
+Port #Insert your port here.
 MaxSessions 2
 MaxAuthTries 3
 PerSourceMaxStartups 1

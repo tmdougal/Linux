@@ -15,11 +15,10 @@ PasswordAuthentication no
 KbdInteractiveAuthentication no
 PermitRootLogin no
 PermitEmptyPasswords no
-MaxAuthTries 3
 
 ########## Banner / Info Leakage ##########
 
-DebianBanner no
+#DebianBanner no (do not include this line on non-debian based distros, it will cause the service to fail on restart)
 
 ########## Cryptography ##########
 
